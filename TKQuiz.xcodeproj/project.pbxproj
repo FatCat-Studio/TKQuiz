@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55E22E541541B9D50016882D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E22E531541B9D50016882D /* UIKit.framework */; };
+		55E22E561541B9D50016882D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E22E551541B9D50016882D /* Foundation.framework */; };
+		55E22E581541B9D50016882D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E22E571541B9D50016882D /* CoreGraphics.framework */; };
+		55E22E5E1541B9D50016882D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55E22E5C1541B9D50016882D /* InfoPlist.strings */; };
+		55E22E601541B9D50016882D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E22E5F1541B9D50016882D /* main.m */; };
+		55E22E641541B9D50016882D /* TKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E22E631541B9D50016882D /* TKAppDelegate.m */; };
+		55E22E671541B9D50016882D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E22E651541B9D50016882D /* MainStoryboard.storyboard */; };
+		55E22E6A1541B9D50016882D /* TKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E22E691541B9D50016882D /* TKViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55E22E4F1541B9D50016882D /* TKQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E22E531541B9D50016882D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55E22E551541B9D50016882D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55E22E571541B9D50016882D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55E22E5B1541B9D50016882D /* TKQuiz-Info.plist */ = {isa = PBXFileReference; path = "TKQuiz-Info.plist"; sourceTree = "<group>"; };
+		55E22E5D1541B9D50016882D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55E22E5F1541B9D50016882D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55E22E611541B9D50016882D /* TKQuiz-Prefix.pch */ = {isa = PBXFileReference; path = "TKQuiz-Prefix.pch"; sourceTree = "<group>"; };
+		55E22E621541B9D50016882D /* TKAppDelegate.h */ = {isa = PBXFileReference; path = TKAppDelegate.h; sourceTree = "<group>"; };
+		55E22E631541B9D50016882D /* TKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAppDelegate.m; sourceTree = "<group>"; };
+		55E22E661541B9D50016882D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		55E22E681541B9D50016882D /* TKViewController.h */ = {isa = PBXFileReference; path = TKViewController.h; sourceTree = "<group>"; };
+		55E22E691541B9D50016882D /* TKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E22E4C1541B9D50016882D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E22E541541B9D50016882D /* UIKit.framework in Frameworks */,
+				55E22E561541B9D50016882D /* Foundation.framework in Frameworks */,
+				55E22E581541B9D50016882D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E22E441541B9D40016882D = {
+			isa = PBXGroup;
+			children = (
+				55E22E591541B9D50016882D /* TKQuiz */,
+				55E22E521541B9D50016882D /* Frameworks */,
+				55E22E501541B9D50016882D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E22E501541B9D50016882D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E22E4F1541B9D50016882D /* TKQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E22E521541B9D50016882D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E22E531541B9D50016882D /* UIKit.framework */,
+				55E22E551541B9D50016882D /* Foundation.framework */,
+				55E22E571541B9D50016882D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55E22E591541B9D50016882D /* TKQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				55E22E621541B9D50016882D /* TKAppDelegate.h */,
+				55E22E631541B9D50016882D /* TKAppDelegate.m */,
+				55E22E651541B9D50016882D /* MainStoryboard.storyboard */,
+				55E22E681541B9D50016882D /* TKViewController.h */,
+				55E22E691541B9D50016882D /* TKViewController.m */,
+				55E22E5A1541B9D50016882D /* Supporting Files */,
+			);
+			path = TKQuiz;
+			sourceTree = "<group>";
+		};
+		55E22E5A1541B9D50016882D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55E22E5B1541B9D50016882D /* TKQuiz-Info.plist */,
+				55E22E5C1541B9D50016882D /* InfoPlist.strings */,
+				55E22E5F1541B9D50016882D /* main.m */,
+				55E22E611541B9D50016882D /* TKQuiz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E22E4E1541B9D50016882D /* TKQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E22E6D1541B9D50016882D /* Build configuration list for PBXNativeTarget "TKQuiz" */;
+			buildPhases = (
+				55E22E4B1541B9D50016882D /* Sources */,
+				55E22E4C1541B9D50016882D /* Frameworks */,
+				55E22E4D1541B9D50016882D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKQuiz;
+			productName = TKQuiz;
+			productReference = 55E22E4F1541B9D50016882D /* TKQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E22E461541B9D40016882D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TK;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = MIPT;
+			};
+			buildConfigurationList = 55E22E491541B9D40016882D /* Build configuration list for PBXProject "TKQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55E22E441541B9D40016882D;
+			productRefGroup = 55E22E501541B9D50016882D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E22E4E1541B9D50016882D /* TKQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E22E4D1541B9D50016882D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E22E5E1541B9D50016882D /* InfoPlist.strings in Resources */,
+				55E22E671541B9D50016882D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E22E4B1541B9D50016882D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E22E601541B9D50016882D /* main.m in Sources */,
+				55E22E641541B9D50016882D /* TKAppDelegate.m in Sources */,
+				55E22E6A1541B9D50016882D /* TKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55E22E5C1541B9D50016882D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E22E5D1541B9D50016882D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55E22E651541B9D50016882D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E22E661541B9D50016882D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E22E6B1541B9D50016882D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55E22E6C1541B9D50016882D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E22E6E1541B9D50016882D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKQuiz/TKQuiz-Prefix.pch";
+				INFOPLIST_FILE = "TKQuiz/TKQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55E22E6F1541B9D50016882D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKQuiz/TKQuiz-Prefix.pch";
+				INFOPLIST_FILE = "TKQuiz/TKQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E22E491541B9D40016882D /* Build configuration list for PBXProject "TKQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E22E6B1541B9D50016882D /* Debug */,
+				55E22E6C1541B9D50016882D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E22E6D1541B9D50016882D /* Build configuration list for PBXNativeTarget "TKQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E22E6E1541B9D50016882D /* Debug */,
+				55E22E6F1541B9D50016882D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E22E461541B9D40016882D /* Project object */;
+}
